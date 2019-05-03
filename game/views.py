@@ -8,8 +8,11 @@ from django.views.generic import TemplateView
 class PaginaInicialView(TemplateView):
 	template_name = "index.html"
 
-class PaginaSobreView(TemplateView):
-		template_name = "sobre.html"
+class PaginaProjetoView(TemplateView):
+		template_name = "projeto.html"
 
 class PaginaContatoView(TemplateView):
 		template_name = "contato.html"
+
+class PaginaCurriculoView(TemplateView):
+		template_name = "curriculo.html"
