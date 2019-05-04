@@ -16,3 +16,6 @@ class PaginaContatoView(TemplateView):
 
 class PaginaCurriculoView(TemplateView):
 		template_name = "curriculo.html"
+
+class PaginaSobreView(TemplateView):
+		template_name = "sobre.html"
